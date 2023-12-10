@@ -20,3 +20,8 @@
     ```bash
     pip install -U openpyxl
     ```
+
+### Running Program
+```bash
+python3 input_testing.py
+```
