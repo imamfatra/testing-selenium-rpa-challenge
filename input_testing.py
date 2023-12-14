@@ -2,6 +2,17 @@ from rpa_selenium import RpaChallange
 import openpyxl, time
 
 def input_form():
+    """
+    This function automates the process of filling an input form using Selenium and RPA (Robotic Process Automation).
+    It reads data from an Excel file ('challenge.xlsx') and fills the form fields with the corresponding values.
+    The form fields include first name, last name, company name, role in company, address, email, and phone number.
+    After filling the form, it submits the form and waits for 20 seconds before quitting the browser.
+
+    Note: The function stops after filling 10 forms.
+
+    Returns:
+        None
+    """
     in_form = RpaChallange()
     in_form.start()
 
